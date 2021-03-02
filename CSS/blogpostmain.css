@@ -1,11 +1,12 @@
 section {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: auto 100px auto 100px;
+    grid-template-rows: auto 100px auto auto 100px;
     grid-template-areas:
     "hd"
     "subhd"
     "main"
+    "bio"
     "ft";
 }
 
@@ -84,7 +85,7 @@ article h3 {
 
 
 #post-images img {
-    border: 5px solid #4e4e4e;
+    border: 5px solid #4e4e4e; 
     width: 30%;
     margin: 10px;
 }
